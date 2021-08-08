@@ -11,7 +11,7 @@ For example when using TLS encryption (as used in the script) some other provide
 * Outlook:  `'smtp-mail.outlook.com', 587`
 * Yahoo:    `'smtp.mail.yahoo.com', 587`
 
-For any other providers just google `smtp server settings for .... insert your provider name` 
+For any other providers just google: smtp server settings for .... insert your provider name
 
 ## Importing
 Have the file email_sender.py in the same folder as you have the script you want to use then

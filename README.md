@@ -1,5 +1,17 @@
 # email_sender
- Python code to send an email to yourself when your code is done or has an error.
+Python code to send an email to yourself when your code is done or has an error.
+
+Please note that this uses gmail as its sending platform so if want to use another email provider then you need to change:
+`session = smtplib.SMTP('smtp.gmail.com', 587)`
+
+to something else.
+
+For example when using TLS encryption (as used in the script) some other providers are: 
+
+* Outlook:  `'smtp-mail.outlook.com', 587`
+* Yahoo:    `'smtp.mail.yahoo.com', 587`
+
+For any other providers just google `smtp server settings for .... insert your provider name` 
 
 ## Importing
 Have the file email_sender.py in the same folder as you have the script you want to use then

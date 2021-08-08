@@ -19,7 +19,7 @@ import getpass
 # pip install stdiomask
 def send_email(send_address, send_password, rec_address, mes_subject, mes_text):
     '''
-    Arguements:
+    Arguments:
     send_email(send_address, send_password, rec_address, mes_subject, mes_text)
     send_address: email address where you are sending the email from
     send_password: password of the sending email account. If left blank then it will prompt you to enter it in the console but no text will show for security purposes.

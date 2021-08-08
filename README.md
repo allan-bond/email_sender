@@ -15,10 +15,10 @@ import email_sender
 * mes_text: the body of the email
 
 ## example:
->>> send_email('sender@example.com', 'ABCD', 'receiver@example.com', 'Hi', 'Hello')
+`send_email('sender@example.com', 'ABCD', 'receiver@example.com', 'Hi', 'Hello')`
 
 If using it from outside the email_sender.py file then after import the code would be:
 
->>> email_sender.send_email('sender@example.com', 'ABCD', 'receiver@example.com', 'Hi', 'Hello')
+`email_sender.send_email('sender@example.com', 'ABCD', 'receiver@example.com', 'Hi', 'Hello')`
 
 If you leave any field blank (think password) then it will ask you for input via the command line. Password will be blank as you type for security.

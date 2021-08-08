@@ -18,10 +18,10 @@ Have the file email_sender.py in the same folder as you have the script you want
 
 import email_sender
 
-## Arguements:
+## Arguments:
 * send_email(send_address, send_password, rec_address, mes_subject, mes_text)
 * send_address: email address where you are sending the email from
-* send_password: password of the sending email account. If left blank then it will prompt you to enter it in the console with ****** mask.
+* send_password: password of the sending email account. If left blank then it will prompt you to enter it in the console with a empty input field. (Nothing will show up even if you type for security)
 * rec_address: email address where you are sending the email to
 * mes_subject: the subject of the email
 * mes_text: the body of the email

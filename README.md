@@ -1,4 +1,4 @@
-# email_sender
+# Email Sender
 Python code to send an email to yourself when your code is done or has an error.
 
 Please note that this uses gmail as its sending platform so if want to use another email provider then you need to change:
